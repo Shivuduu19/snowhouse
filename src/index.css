@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #001b2e;
+  font-family: "Aeonik";
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 992px) {
+  html {
+    font-size: 1.1111vw;
+  }
+}
