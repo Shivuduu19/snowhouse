@@ -19,7 +19,12 @@ export default {
           'from': { transform: 'translateX(0)' },
           'to': { transform: 'translateX(-50%)' }
         }
+      },
+      fontFamily: {
+        aeonik: ['Aeonik', 'sans-serif'],
+        aeonikMedium: ["Aeonik Medium", 'sans-serif']
       }
+
     },
   },
   plugins: [],

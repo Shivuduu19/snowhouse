@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
-      <div className="mt-36"></div>
-      <div className="w-full">
+      <div className="mt-36">
+        <h1 className="text-[52px] text-center "></h1>
+      </div>
+      <div className="w-full  font-aeonik">
 
         <section className="overflow-hidden">
           <DetailsMarquee />
@@ -20,7 +22,7 @@ function App() {
           <div className="px-[2.5rem] ">
             <div className="mx-auto w-full max-w-[80rem]">
               <div className="max-w-[64rem] pt-[3rem] pb-[4.625rem] tablet:pt-[3rem] tablet:pb-[4rem] ">
-                <h2 className="tracking-[-1px] text-[4rem] font-medium leading-[1.2] tablet:text-[2rem] uml:text-[3.5rem] uppercase mt-0 mb-0">
+                <h2 className="tracking-[-1px] font-aeonikMedium text-[4rem] font-medium leading-[1.2] tablet:text-[2rem] uml:text-[3.5rem] uppercase mt-0 mb-0">
                   Trusted by 200+ amazing clients, partners and friends.
                 </h2>
               </div>
@@ -32,12 +34,12 @@ function App() {
         <div className="">
           <div className="px-[2.5rem] tablet:px-[1.25rem]  ">
             <div className="mx-auto w-full max-w-[80rem]">
-              <div className="flex flex-col pt-[4.5rem] pb-[4rem]  gap-[1.5rem] border-t border-solid border-[#f4f2f1] ">
-                <div className="flex px-[2.5rem] w-full rounded-[1.5rem] gap-[2rem] justify-between py-[2rem]">
+              <div className="flex flex-col pt-[4.5rem] pb-[4rem]  gap-[1.5rem]   ">
+                <div className="flex px-[2.5rem] w-full bg-[#f4f2f1] rounded-[1.5rem] gap-[2rem] justify-between py-[2rem]">
                   <div className="flex tablet:flex-col tablet:items-start uml:gap-[1rem] w-full items-center justify-between gap-[2rem]">
-                    <h2 className="text-[#001b2e] text-[2rem] uppercase my-0 font-medium leading-[1.2]">EXCITED? US TOO. Let’s get moving. </h2>
-                    <a href="" className="flex gap-[1rem] justify-center items-center py-[1rem] transition-all duration-[.3s] bg-[#1458e4] text-[#fff] text-center uppercase rounded-[1rem] px-[1.5rem] text-[.875rem] font-medium max-w-full ">
-                      <div className="">Schedule a call</div>
+                    <h2 className="text-[#001b2e] font-aeonikMedium  text-[2rem] uppercase my-0 font-medium leading-[1.2]">EXCITED? US TOO. Let’s get moving. </h2>
+                    <a href="" className="flex gap-[1rem] justify-center hover:gap-[2rem] hover:bg-[#f99354] items-center py-[1rem] transition-all duration-[.3s] bg-[#1458e4] text-[#fff] text-center uppercase rounded-[1rem] px-[1.5rem] text-[.875rem] font-medium max-w-full ">
+                      <div className="font-aeonikMedium">Schedule a call</div>
                       <div className="h-[1rem] w-[1.3125rem] flex justify-center items-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 21 16" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                           <g clip-path="url(#clip0_182_12)">
@@ -64,7 +66,7 @@ function App() {
                         <img src={webflow} alt="" />
                       </div>
                       <div className="">
-                        <div className="text-left uppercase mx-0 p-0 text-[.875em] font-medium transition-all duration-[.3s]">
+                        <div className="text-left font-aeonikMedium uppercase mx-0 p-0 text-[.875em] font-medium transition-all duration-[.3s]">
                           Professional partner of the year: Finalist
                         </div>
                       </div>
@@ -97,46 +99,47 @@ function App() {
                     </a>
                     <div className="flex flex-col gap-[2rem] ">
                       <div className="flex flex-wrap gap-[1.5rem] tablet:gap-[1rem] uml:gap-[1rem] max-w-[21.625rem]">
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">Services</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">Pricing</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">Projects</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">Insights</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">About</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">Contact</a>
-                        <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0">tesetimonials</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Services</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Pricing</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Projects</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Insights</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">About</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Contact</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">tesetimonials</a>
                       </div>
                       <div className="flex justify-between tablet:items-center">
                         <div className="opacity-[.5] text-[.875rem] ">© 2024 Snowhouse ehf. </div>
                         <div className="flex gap-[1.5rem] ">
-                          <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">terms</a>
-                          <a href="" className="text-[#001b2e] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">privacy</a>
+                          <a href="" className="text-[#001b2e] font-aeonikMedium uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">terms</a>
+                          <a href="" className="text-[#001b2e] font-aeonikMedium uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">privacy</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div className="flex gap-[1.5rem] tablet:gap-[1.5rem] tablet:grid tablet:grid-rows-[auto_auto] tablet:grid-cols-[1fr_1fr] auto-cols-[1fr] ">
-                  <a href="" className="rounded-[1.5rem] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
+                  <a href="" className="rounded-[1.5rem] bg-[#f4f2f1] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
                     <div className="text-[#1458e4] tablet:h-[3rem] uml:w-[3rem] uml:h-auto flex justify-center items-center  flex-col w-[5rem] h-[5.0625rem] ">
                       <svg xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
                         <path d="M55.1291 0H65.8629L42.4127 26.2626L70 62H48.3994L31.481 40.3254L12.1226 62H1.38228L26.4646 33.9092L0 0H22.149L37.4417 19.8114L55.1291 0ZM51.3619 55.7046H57.3096L18.9172 5.96472H12.5347L51.3619 55.7046Z" fill="#1458E4"></path>
                       </svg> </div>
                   </a>
-                  <a href="" className="rounded-[1.5rem] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
+                  <a href="" className="rounded-[1.5rem] bg-[#f4f2f1] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
                     <div className="text-[#1458e4] tablet:h-[3rem] uml:w-[3rem] uml:h-auto flex justify-center items-center  flex-col w-[5rem] h-[5.0625rem] ">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 78" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                         <path d="M16.6 8.79036C16.6 13.3937 12.9 17.1237 8.33333 17.1237C3.76667 17.1237 0.0666667 13.3937 0.0666667 8.79036C0.0666667 4.19036 3.76667 0.457031 8.33333 0.457031C12.9 0.457031 16.6 4.19036 16.6 8.79036ZM16.6667 23.7904H0V77.1237H16.6667V23.7904ZM43.2733 23.7904H26.7133V77.1237H43.2767V49.127C43.2767 33.5604 63.3733 32.287 63.3733 49.127V77.1237H80V43.3537C80 17.087 50.26 18.0437 43.2733 30.9737V23.7904Z" fill="currentColor"></path>
                       </svg>
                     </div>
                   </a>
-                  <a href="" className="rounded-[1.5rem] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
+                  <a href="" className="rounded-[1.5rem] bg-[#f4f2f1] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
                     <div className="text-[#1458e4] tablet:h-[3rem] uml:w-[3rem] uml:h-auto flex justify-center items-center  flex-col w-[5rem] h-[5.0625rem] ">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 81" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40 0.457031C17.9176 0.457031 0 18.3746 0 40.457C0 62.5395 17.9176 80.457 40 80.457C62.039 80.457 80 62.5395 80 40.457C80 18.3746 62.039 0.457031 40 0.457031ZM66.4208 18.8952C71.193 24.7087 74.0565 32.1273 74.1432 40.1533C73.0153 39.9365 61.7352 37.637 50.3687 39.0688C50.1085 38.5048 49.8915 37.8973 49.6313 37.29C48.937 35.6415 48.1562 33.9495 47.3753 32.3443C59.9565 27.225 65.6833 19.8497 66.4208 18.8952ZM40 6.35726C48.6768 6.35726 56.616 9.61106 62.6465 14.9473C62.039 15.815 56.8763 22.713 44.7288 27.2683C39.1323 16.9863 32.9285 8.56983 31.974 7.26831C34.5335 6.66093 37.2235 6.35726 40 6.35726ZM25.4665 9.56766C26.3775 10.7824 32.4513 19.2423 38.1345 29.3073C22.1692 33.559 8.06942 33.4723 6.55097 33.4723C8.76355 22.8865 15.9219 14.0796 25.4665 9.56766ZM5.81345 40.5005C5.81345 40.1533 5.81345 39.8063 5.81345 39.4593C7.2885 39.5025 23.8612 39.7195 40.911 34.6003C41.909 36.509 42.82 38.4613 43.6877 40.4135C43.2537 40.5438 42.7765 40.674 42.3428 40.804C24.7288 46.4873 15.3579 62.0188 14.577 63.3203C9.154 57.29 5.81345 49.264 5.81345 40.5005ZM40 74.6435C32.104 74.6435 24.8156 71.9538 19.0455 67.4418C19.6529 66.1838 26.5942 52.8215 45.8567 46.097C45.9435 46.0535 45.987 46.0535 46.0738 46.0103C50.8893 58.4613 52.8418 68.9168 53.3623 71.9103C49.2407 73.689 44.7287 74.6435 40 74.6435ZM59.0455 68.7868C58.6985 66.7043 56.8763 56.726 52.4078 44.4483C63.1237 42.7563 72.4945 45.533 73.666 45.9235C72.191 55.4245 66.7245 63.624 59.0455 68.7868Z" fill="currentColor"></path>
                       </svg>
                     </div>
                   </a>
-                  <a href="" className="rounded-[1.5rem] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
+                  <a href="" className="rounded-[1.5rem] bg-[#f4f2f1] tablet:w-full tablet:h-[8rem] flex items-center justify-center w-[25%] py-[2rem] transition-colors duration-[.3s] max-w-full">
                     <div className="text-[#1458e4] tablet:h-[3rem] uml:w-[3rem] uml:h-auto flex justify-center items-center  flex-col w-[5rem] h-[5.0625rem] ">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 81" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                         <path d="M80 40.7015C80 18.4751 62.0914 0.457031 40 0.457031C17.9086 0.457031 0 18.4751 0 40.7015C0 60.7886 14.6274 77.4379 33.75 80.457V52.3346H23.5938V40.7015H33.75V31.8351C33.75 21.7488 39.7217 16.1775 48.8586 16.1775C53.235 16.1775 57.8125 16.9635 57.8125 16.9635V26.8675H52.7686C47.7996 26.8675 46.25 29.9697 46.25 33.1523V40.7015H57.3438L55.5703 52.3346H46.25V80.457C65.3726 77.4379 80 60.7886 80 40.7015Z" fill="currentColor"></path>

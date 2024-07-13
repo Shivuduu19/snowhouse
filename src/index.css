@@ -1,13 +1,35 @@
+@import url(https://db.onlinewebfonts.com/c/757ff6da05e4f945c71c9751b485a9ad?family=Aeonik+Medium);
+@import url(https://db.onlinewebfonts.com/c/d95bf2f30035a050142565e03d44da71?family=Aeonik);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+@font-face {
+  font-family: 'aeonik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Aeonik.ttf) format('ttf');
+}
+
+
+
+@font-face {
+  font-family: "Aeonik Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Aeonik\ Medium.ttf) format('ttf');
+} */
+
 
 
 body {
   font-size: 1rem;
   line-height: 1.5;
   color: #001b2e;
-  font-family: "Aeonik";
+
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 992px) {
