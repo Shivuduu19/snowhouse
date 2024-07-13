@@ -22,7 +22,7 @@ export default {
       },
       fontFamily: {
         aeonik: ['Aeonik', 'sans-serif'],
-        aeonikMedium: ["Aeonik Medium", 'sans-serif']
+
       }
 
     },

@@ -12,7 +12,7 @@ function App() {
       <div className="mt-36">
         <h1 className="text-[52px] text-center "></h1>
       </div>
-      <div className="w-full  font-aeonik">
+      <div className="w-full  font-['Aeonik']">
 
         <section className="overflow-hidden">
           <DetailsMarquee />
@@ -22,7 +22,7 @@ function App() {
           <div className="px-[2.5rem] ">
             <div className="mx-auto w-full max-w-[80rem]">
               <div className="max-w-[64rem] pt-[3rem] pb-[4.625rem] tablet:pt-[3rem] tablet:pb-[4rem] ">
-                <h2 className="tracking-[-1px] font-aeonikMedium text-[4rem] font-medium leading-[1.2] tablet:text-[2rem] uml:text-[3.5rem] uppercase mt-0 mb-0">
+                <h2 className="tracking-[-1px] font-['Aeonik_Medium'] text-[4rem] font-medium leading-[1.2] tablet:text-[2rem] uml:text-[3.5rem] uppercase mt-0 mb-0">
                   Trusted by 200+ amazing clients, partners and friends.
                 </h2>
               </div>
@@ -37,9 +37,9 @@ function App() {
               <div className="flex flex-col pt-[4.5rem] pb-[4rem]  gap-[1.5rem]   ">
                 <div className="flex px-[2.5rem] w-full bg-[#f4f2f1] rounded-[1.5rem] gap-[2rem] justify-between py-[2rem]">
                   <div className="flex tablet:flex-col tablet:items-start uml:gap-[1rem] w-full items-center justify-between gap-[2rem]">
-                    <h2 className="text-[#001b2e] font-aeonikMedium  text-[2rem] uppercase my-0 font-medium leading-[1.2]">EXCITED? US TOO. Let’s get moving. </h2>
+                    <h2 className="text-[#001b2e] font-['Aeonik_Medium']  text-[2rem] uppercase my-0 font-medium leading-[1.2]">EXCITED? US TOO. Let’s get moving. </h2>
                     <a href="" className="flex gap-[1rem] justify-center hover:gap-[2rem] hover:bg-[#f99354] items-center py-[1rem] transition-all duration-[.3s] bg-[#1458e4] text-[#fff] text-center uppercase rounded-[1rem] px-[1.5rem] text-[.875rem] font-medium max-w-full ">
-                      <div className="font-aeonikMedium">Schedule a call</div>
+                      <div className="font-['Aeonik_Medium']">Schedule a call</div>
                       <div className="h-[1rem] w-[1.3125rem] flex justify-center items-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 21 16" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                           <g clip-path="url(#clip0_182_12)">
@@ -66,7 +66,7 @@ function App() {
                         <img src={webflow} alt="" />
                       </div>
                       <div className="">
-                        <div className="text-left font-aeonikMedium uppercase mx-0 p-0 text-[.875em] font-medium transition-all duration-[.3s]">
+                        <div className="text-left font-['Aeonik_Medium'] uppercase mx-0 p-0 text-[.875em] font-medium transition-all duration-[.3s]">
                           Professional partner of the year: Finalist
                         </div>
                       </div>
@@ -99,19 +99,19 @@ function App() {
                     </a>
                     <div className="flex flex-col gap-[2rem] ">
                       <div className="flex flex-wrap gap-[1.5rem] tablet:gap-[1rem] uml:gap-[1rem] max-w-[21.625rem]">
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Services</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Pricing</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Projects</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Insights</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">About</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">Contact</a>
-                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-aeonikMedium">tesetimonials</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">Services</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">Pricing</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">Projects</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">Insights</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">About</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">Contact</a>
+                        <a href="" className="text-[#001b2e] hover:text-[#f99354] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s] uml:py-0 font-['Aeonik_Medium']">tesetimonials</a>
                       </div>
                       <div className="flex justify-between tablet:items-center">
                         <div className="opacity-[.5] text-[.875rem] ">© 2024 Snowhouse ehf. </div>
                         <div className="flex gap-[1.5rem] ">
-                          <a href="" className="text-[#001b2e] font-aeonikMedium uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">terms</a>
-                          <a href="" className="text-[#001b2e] font-aeonikMedium uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">privacy</a>
+                          <a href="" className="text-[#001b2e] font-['Aeonik_Medium'] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">terms</a>
+                          <a href="" className="text-[#001b2e] font-['Aeonik_Medium'] uppercase py-0 text-[.875rem] font-medium transition-colors duration-[.3s]">privacy</a>
                         </div>
                       </div>
                     </div>

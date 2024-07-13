@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import maurar from '../assets/snowhouse/655f9aa704d10900bc66a0d2_Maurar.webp'
 import fiskfela from '../assets/snowhouse/655f9ab9a40da73acc3dff42_Fiskfelagid.webp'
 import myntcoin from '../assets/snowhouse/655f9ac83bc2c046908bbad7_Myntcoin.webp'
@@ -35,130 +35,130 @@ const Clients = () => {
         <section className="flex flex-col tablet:gap-[.5rem] gap-[1rem] relative overflow-hidden">
             <div className='flex items-center w-full' >
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={maurar} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={fiskfela} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={myntcoin} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={defiance} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={som} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={eb} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img src={e2} loading='eager' alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
             </div>
 
             <div className='flex items-center w-full' >
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0'>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
             </div>
 
             <div className='flex items-center w-full' >
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${translate}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
             </div>
 
             <div className='flex items-center w-full' >
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform  tablet:pb-0'>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
                 <div style={{ transform: `translate3d(${secFour}%,0px,0px)` }} className='flex-shrink-0 flex-grow-0 basis-auto will-change-transform tablet:pb-0 '>
-                    <img src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
-                    <img src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={maurar} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={fiskfela} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={myntcoin} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={defiance} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={som} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={eb} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
+                    <img loading='eager' src={e2} alt="" className='object-cover rounded-[1.5rem] w-[13rem] h-[10rem] mx-[.5rem] max-w-full inline-block align-middle border-0 tablet:mx-[.25rem]' />
                 </div>
             </div>
         </section >
